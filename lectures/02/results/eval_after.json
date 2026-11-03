@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 1.0,
+    "both_rate": 1.0,
+    "seconds": 42.7
+  },
+  "rows": [
+    {
+      "question": "¿Cuál es la fecha del simulacro?",
+      "raw": "{\"answer\": \"El simulacro de evacuación se realiza el 15 de octubre a las 10:00 (hora de Colombia).\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Dime el día y la hora del simulacro",
+      "raw": "{\"answer\": \"El simulacro de evacuación se realiza el 15 de octubre a las 10:00 (hora de Colombia).\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿En qué fecha y a qué hora es la evacuación?",
+      "raw": "{\"answer\": \"El simulacro de evacuación se realiza el 15 de octubre a las 10:00 (hora de Colombia).\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Por dónde se inscriben las entidades?",
+      "raw": "{\"answer\": \"La inscripción de las entidades se hace en el formulario web Registro Simulacro del portal institucional.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿En qué formulario se registra la entidad?",
+      "raw": "{\"answer\": \"La inscripción de las entidades se hace en el formulario web Registro Simulacro del portal institucional.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Cómo es el proceso de inscripción?",
+      "raw": "{\"answer\": \"La inscripción de las entidades se hace en el formulario web Registro Simulacro del portal institucional.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Dónde nos reunimos al evacuar?",
+      "raw": "{\"answer\": \"El punto de encuentro de cada edificio es la zona segura marcada con señal verde en el plano de evacuación.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Qué señal tiene la zona segura?",
+      "raw": "{\"answer\": \"El punto de encuentro de cada edificio es la zona segura marcada con señal verde en el plano de evacuación.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Dónde queda el punto de reunión del edificio?",
+      "raw": "{\"answer\": \"El punto de encuentro de cada edificio es la zona segura marcada con señal verde en el plano de evacuación.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Qué tipo de archivo pide el reporte?",
+      "raw": "{\"answer\": \"El reporte de resultados se envía en un archivo Excel con el nombre NIT_entidad.xlsx.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Con qué nombre guardo el archivo de resultados?",
+      "raw": "{\"answer\": \"El reporte de resultados se envía en un archivo Excel con el nombre NIT_entidad.xlsx.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Qué formato tiene el archivo de resultados?",
+      "raw": "{\"answer\": \"El reporte de resultados se envía en un archivo Excel con el nombre NIT_entidad.xlsx.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Aceptan reportes fuera de tiempo?",
+      "raw": "{\"answer\": \"El reporte se recibe hasta 72 horas después del simulacro; fuera de ese plazo no cuenta para la certificación.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Cuántas horas tengo para enviar el reporte?",
+      "raw": "{\"answer\": \"El reporte se recibe hasta 72 horas después del simulacro; fuera de ese plazo no cuenta para la certificación.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Si reporto después del plazo, ¿me certifican?",
+      "raw": "{\"answer\": \"El reporte se recibe hasta 72 horas después del simulacro; fuera de ese plazo no cuenta para la certificación.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "¿Qué hago si un compañero está en silla de ruedas?",
+      "raw": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "¿Quién coordina el simulacro en mi edificio?",
+      "raw": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "¿Hay que avisar a los bomberos antes del simulacro?",
+      "raw": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "¿Se evalúa el tiempo de evacuación?",
+      "raw": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "¿Puedo inscribir dos sedes con un solo formulario?",
+      "raw": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "¿Habrá una capacitación previa?",
+      "raw": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    }
+  ]
+}

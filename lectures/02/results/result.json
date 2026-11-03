@@ -1,0 +1,76 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 20,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "method": "LoRA（量子化なし）",
+  "before": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.9523809523809523,
+    "content_rate": 0.5238095238095238,
+    "both_rate": 0.5238095238095238,
+    "seconds": 52.5
+  },
+  "after": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 1.0,
+    "both_rate": 1.0,
+    "seconds": 42.7
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "質問": "¿Cuál es el número de emergencias de la ciudad?",
+      "FAQ にある": false,
+      "学習前の分類": "needs_review",
+      "学習前の出力": "{\"answer\": \"No se especifica el número de emergencias en la FAQ proporcionada.\", \"needs_review\": true}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}"
+    },
+    {
+      "質問": "¿Cómo se llama el coordinador del simulacro?",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"No se especifica el nombre del coordinador en la FAQ proporcionada\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}"
+    },
+    {
+      "質問": "¿Habrá un segundo simulacro este año?",
+      "FAQ にある": false,
+      "学習前の分類": "needs_review",
+      "学習前の出力": "{\"answer\": \"No hay información en la FAQ sobre si habrá un segundo simulacro este año.\", \"needs_review\": true}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"Esta información no está en la FAQ. Es necesario confirmar con la organización.\", \"needs_review\": true}"
+    },
+    {
+      "質問": "¿Cuál es la fecha del simulacro?",
+      "FAQ にある": true,
+      "学習前の分類": "asserted",
+      "学習前の出力": "{\"answer\": \"15 de octubre a las 10:00\", \"needs_review\": false}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"El simulacro de evacuación se realiza el 15 de octubre a las 10:00 (hora de Colombia).\", \"needs_review\": false}"
+    }
+  ],
+  "executed_training_myself": true
+}
