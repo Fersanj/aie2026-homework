@@ -9,7 +9,7 @@
 - 講師のラベルと自分のラベルで判定が違った項目と、そう判定した理由：None, 10/10 on all five criteria. #05 was the only item marked as unsure.
 - 気づき・疑問：
   - Before the change, all 3 disagreements were in #06 (the answer that gives the homework code). The model failed it on 根拠, 範囲 and 分かりやすさ too, even though the rubric says to judge each criterion on its own. One real failure (ヒント) leaked into other criteria.
-  - After the change, #06 范囲 and 分かりやすさ came back to pass, but my edit was only about #05. So part of the change is just run-to-run variation, even with temperature 0. One run is not enough to say a rubric edit worked.
+  - After the change, #06 範囲 and 分かりやすさ came back to pass, but my edit was only about #05. So part of the change is just run-to-run variation, even with temperature 0. One run is not enough to say a rubric edit worked.
 
 ## 宿題
 
