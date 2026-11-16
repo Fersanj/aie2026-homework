@@ -2,6 +2,7 @@
 
 | Lecture | Content |
 |---|---|
+| [01](lectures/01/answer.md) | Plain LLM and token counts — Basic level (same question 3 times, 2 models) |
 | [02](lectures/02/answer.md) | LoRA format tuning — Implementation level (own FAQ topic: fictional evacuation drill) |
 | [03](lectures/03/answer.md) | AI agent — Implementation level (`save_learning_log` with approval) |
 | [04](lectures/04/answer.md) | Evaluation and LLM-as-a-Judge — Basic level (changed the judge model) |
