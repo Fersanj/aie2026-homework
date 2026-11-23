@@ -6,6 +6,7 @@
 | [02](lectures/02/answer.md) | LoRA format tuning — Implementation level (own FAQ topic: fictional evacuation drill) |
 | [03](lectures/03/answer.md) | AI agent — Implementation level (`save_learning_log` with approval) |
 | [04](lectures/04/answer.md) | Evaluation and LLM-as-a-Judge — Basic level (changed the judge model) |
+| [05](lectures/05/answer.md) | RAG over the lecture materials — Basic level (changed RAG_TOP_K from 5 to 2) |
 
 Files for lecture 02:
 - `lectures/02/answer.md` – assignment write-up (level, data changes, results, reflection)
